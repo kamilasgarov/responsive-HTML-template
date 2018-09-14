@@ -4,9 +4,9 @@ body{
   font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #main-navigation {
- 
+  padding: 10px;
   float:right;
-  Font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container
 {
@@ -37,15 +37,24 @@ color: #666;
 }
 
 #main-navigation ul {
+  padding: 0px;
 display: inline;
+
+
+}
+#main-navigation ul li a{
+ margin-right: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
 
 }
 #main-navigation ul li{
   display: inline-block;
 }
-#main-navigation ul li:hover {
-  background: #57a4d8;
-  color: #fff;}
+#main-navigation ul li a:hover {
+ 
+  color: #2500f8;}
   #main-navigation ul li ul{
     padding: 0px;
     margin: 0px;
@@ -61,6 +70,7 @@ display: inline;
     display: block;
   }
   #main-navigation ul li ul li a{
+   
 padding: 20px;
 width: 100%;
 }
