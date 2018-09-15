@@ -14,9 +14,11 @@ body{
   margin: auto;
   overflow: hidden;
 }
+
+
 #header-navigation{
   background-color: #fff;
- border: 3px solid  #57a4d8 ;
+ border-top: 1px solid  grey ;
   height: 55px ;
   padding-top: 15px;
 }
@@ -28,7 +30,7 @@ body{
 
 #logo a{
   font-size: 25px;
-line-height: 40px
+
 }
 a{
 text-decoration: none;
@@ -50,32 +52,62 @@ display: inline;
 
 }
 #main-navigation ul li{
+  height: 50px;
   display: inline-block;
 }
 #main-navigation ul li a:hover {
- 
+
   color: #2500f8;}
   #main-navigation ul li ul{
-    padding: 0px;
-    margin: 0px;
+    margin-top: 10px;
+    
     background-color: #fff;
     text-align: center;
     display: none;
     position: absolute;
-    border: 2px solid black;
+    border: 1px solid grey;
   }
 #main-navigation ul li ul li {
-
-  
+height: 100%;
+  margin:0px;
+  padding: 5px 10px;
     display: block;
   }
-  #main-navigation ul li ul li a{
-   
-padding: 20px;
-width: 100%;
+  #main-navigation ul li ul li:hover{
+    opacity: 50%;
+    background: rgb(224, 224, 224);
 }
 #main-navigation ul li:hover ul {
-		display: block;
+    display: block;
+   
+}
+
+  #search{
+    float:right;
+  }
+  
+  #search  a .form {
+    background-color: #fff;
+    display: none;
+   margin: 20px;
+   padding: 20px;
+   border:1px solid black;
+   box-shadow: 2px 3px grey;
+  }
+  #search a:hover  .form{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top:50px;
+   margin:20px;
   }
 
-
+#first-section  {
+  min-height:400px ;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") ;
+  text-align: center;
+  
+}
