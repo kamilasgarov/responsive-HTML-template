@@ -17,9 +17,11 @@ body{
 
 
 #header-navigation{
+  width: 100%;
+  position: fixed;
   background-color: #fff;
  border-top: 1px solid  grey ;
-  height: 55px ;
+  height: 60px ;
   padding-top: 15px;
 }
 #logo{
@@ -103,11 +105,63 @@ height: 100%;
   }
 
 #first-section  {
-  min-height:400px ;
-  background-position: center; 
+  
+ padding-top: 150px;
+  min-height:550px ;
+  background-position: center ; 
   background-repeat: no-repeat; 
-  background-size: cover; 
+  background-size: 100%;
+  background-attachment: fixed;
   background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") ;
   text-align: center;
   
 }
+#first-section h1{
+
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+}
+#first-section p{
+  color: #fff;
+}
+.right-button{ 
+  background-color: #5d47d7;
+  margin: 5px;
+  padding: 15px 50px;
+  border: 2px solid #5d47d7;
+  display: inline-block;
+}
+.left-button{
+  background: transparent;
+  margin:5px;
+  padding: 15px 45px;
+  border: 2px solid #E8EBED;
+  display: inline-block;
+}
+.right-button a{
+ font-family:  "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #fff;
+}
+.left-button a{
+color: #fff;
+
+}
+.left-button:hover{
+opacity: 0.9;
+background-color: #E8EBED;
+color:black;
+}
+.left-button:hover a{
+font-weight: bold;
+color:black;
+}
+.right-button:hover{
+  opacity: 0.8;
+  background-color: #5d47d7;
+  color:black;
+  }
+  .right-button:hover a{
+  font-weight: bold;
+  color:#fff;
+  }
